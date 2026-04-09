@@ -364,13 +364,13 @@
 <body>
 
 <nav>
-  <a class="nav-logo" href="#" onclick="showPage('home')">Federico Rosso Mai</a>
+  <a class="nav-logo" href="#" onclick="event.preventDefault(); showPage('home')">Federico Rosso Mai</a>
   <ul class="nav-links">
-    <li><a href="#" onclick="showPage('home')" id="nav-home">Home</a></li>
-    <li><a href="#" onclick="showPage('resume')" id="nav-resume" class="active">Resume</a></li>
-    <li><a href="#" onclick="showPage('projects')" id="nav-projects">Projects</a></li>
-    <li><a href="#" onclick="showPage('blog')" id="nav-blog">Blog</a></li>
-    <li><a href="#" onclick="showPage('contact')" id="nav-contact">Contact</a></li>
+    <li><a href="#" onclick="event.preventDefault(); showPage('home')" id="nav-home">Home</a></li>
+    <li><a href="#" onclick="event.preventDefault(); showPage('resume')" id="nav-resume">Resume</a></li>
+    <li><a href="#" onclick="event.preventDefault(); showPage('projects')" id="nav-projects">Projects</a></li>
+    <li><a href="#" onclick="event.preventDefault(); showPage('blog')" id="nav-blog">Blog</a></li>
+    <li><a href="#" onclick="event.preventDefault(); showPage('contact')" id="nav-contact">Contact</a></li>
   </ul>
 </nav>
 
